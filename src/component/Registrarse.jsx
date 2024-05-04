@@ -29,7 +29,7 @@ const Registrarse = () => {
                         <input type="submit" value="Registrarse" className="boton-registrarse" />
                     </div>
                 </form>
-                <p className="no-registrado">Ya tienes una cuenta?   <li ><a href="#">Ingresa aqui </a></li></p>
+                <p className="no-registrado">Ya tienes una cuenta?   <li ><Link to="/login">Ingresa aqui </Link></li></p>
             </div>
             <Footer />
         </>

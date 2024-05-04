@@ -3,6 +3,7 @@ import React from "react";
 import '../css/Login.css';
 import Footer from "./Footer";
 import Header from "./Header";
+import { Link } from "react-router-dom";
 
 const Login = () => {
     return (
@@ -23,7 +24,7 @@ const Login = () => {
                         <input type="submit" value="Registrarse" className="boton-registrarse" />
                     </div>
                 </form>
-                <p className="no-registrado">No tienes una cuenta?   <li ><a href="#">Registrate aqui </a></li></p>
+                <p className="no-registrado">No tienes una cuenta?   <li ><Link to="/registrarse">Registrate aqui </Link></li></p>
                
             </div>
             <Footer />

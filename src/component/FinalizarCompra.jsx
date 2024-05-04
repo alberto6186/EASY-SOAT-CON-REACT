@@ -17,12 +17,13 @@ function FinalizarCompra() {
                             className='easy-logo'
                             alt='Logo de easy'
                         />
-                        <p className="mensaje">Su SOAT fue generado exitosamente y enviado a su correo electronico.</p>
+                        
+                    </div>
+                    <p className="mensaje">Su SOAT fue generado exitosamente y enviado a su correo electronico.</p>
                     <br></br>
                     <p className="mensaje">A continuacion puede imprimirlo si lo desea, al igual que su factura en los 
                         siguientes enlaces
                     </p>
-                    </div>
                 </section>
                 <section className="final-compra">
                     <div className="finalizar-compra">
