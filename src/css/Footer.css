@@ -1,12 +1,18 @@
 .footer{
     background-color: #2421b8;
-    height: 120px;
+    height: auto;
     width: 100%;
-    margin-top: 0;
+    height: 160px;
+   
+}
+.logo{
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 2px;
 }
 .footer p{
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -14,12 +20,12 @@
     color: white;
     font-size: 20px;
     text-align: center;
-    padding: 5px 0;
+    padding: 2px 0;
     
 }
 @media(min-width: 768px){
     .footer{
-        height: 160px;
+        height: 180px;
         
     }
     .footer p{
@@ -28,13 +34,14 @@
     
     .footer, .marca-logo {
         font-size: 25px;
-        padding: 10px 0;
+        padding: 2px 0;
         
     }
     
-    h1{
+    .logo{
         text-align: center;
         font-size: 30px;
-        padding: 25px 10px 15px 10px;
+        padding: 5px;
+        margin-bottom: 2px;
     }
 }

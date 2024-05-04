@@ -1,8 +1,18 @@
 import React from "react"
+
 import auto from '../img/auto.png';
 import '../css/Consulta.css';
+import DatosInformacionVehiculo from "./DatosInformacionVehiculo";
+import { Link } from "react-router-dom";
+
+
+
+
 
 function Consulta() {
+   
+   
+
    return (
       <div className="section">
          <h1>Adquiere tu Soat y aprovecha todos los beneficios que tenemos para ti</h1>
@@ -28,7 +38,8 @@ function Consulta() {
                      <input type="number" id="identificacion" placeholder="Identificacion" className="input" />
                   </div>
                   <div className="form-campo">
-                     <input type="submit" value="Consultar" className="boton" />
+                     <Link to="/infor-consulta"><input type="submit"  value="Consultar" className="boton"  /></Link>
+                     
                   </div>
                </form>
             </div>

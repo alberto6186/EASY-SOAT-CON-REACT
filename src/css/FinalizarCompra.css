@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #8092d2;
+}
+.contenido-compra{
+    width: 90%;
+    margin: 10px;
+    height: auto;
+}
+.contenido-imagen{
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+.titulo-compra{
+    font-size: 24px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.easy-logo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.mensaje{
+    font-size: 16px;
+    font-weight: 400;
+    color: aliceblue;
+    margin: 1px 5px;
+
+}
+.finalizar-compra{
+   margin: 7px 0;
+    width: 100%;
+}
+.boton-finalizar{
+   
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    background-color: blue;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+.boton-finalizar:hover{
+    background-color: rgb(24, 24, 230);
+}
+
+@media (min-width: 650px){
+    body, html{
+        background-color: #8092d2;
+        margin-top: 70px;
+    }
+    .contenido-compra{
+        margin: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 20px;
+    }
+    .mensaje{
+        font-size: 18px;
+        font-weight: 400;
+        color: aliceblue;
+        margin: 3px 8px;
+    
+    }
+    .contenido-compra{
+        margin: 50px 0;
+        width: 90%;
+        margin: 10px;
+        height: auto;
+    }
+    .contenido-imagen{
+        
+        width: 90%;
+        height: auto;
+        padding: 5px;
+    }
+}
+@media (min-width: 768px){
+    .contenido-compra{
+        margin-top: 120px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .titulo-compra{
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+    }
+    .mensaje{
+        margin-top: 2px;
+        font-size: 18px;
+        font-weight: 400;
+        color: aliceblue;
+        margin: 3px 8px;
+    
+    }
+    .mensaje-informativo{
+        margin-top: 0;
+
+    }
+    
+    .easy-logo{
+        width: auto;
+        height: auto;
+    }
+    .contenido-compra{
+        margin: 10px;
+
+    }
+    .contenido-imagen{
+        margin-left: 30px;
+        padding: 5px;
+    }
+    .boton-finalizar{
+        margin: 10px;
+        width: 90%;
+        padding: 10px;
+        font-size: 17px;
+        background-color: blue;
+        border-radius: 30px;
+        border: none;
+        text-transform: uppercase;
+        color: white;
+        cursor: pointer;
+    }
+   
+}
